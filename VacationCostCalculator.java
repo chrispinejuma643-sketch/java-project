@@ -7,6 +7,7 @@ public class VacationCostCalculator{
             double meals=250.50;
             double activities=300.00;
             double TotalCost= calculateTotalCost(accommodation,meals,activities);
-            System.out.println("");
+            System.out.println("total Vacation cost:$" + totalCost);
            }
         }
+
