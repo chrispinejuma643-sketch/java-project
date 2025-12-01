@@ -1,4 +1,4 @@
-class Vehicle {
+class Vehicl
     String brand;
     int year;
 }
@@ -9,7 +9,7 @@ class Main {
     public static void main(String[] args) {
         Car myCar = new Car();
         myCar.brand = "Toyota";
-        myCar.year = 2024;
+        myCar.year = 2023
         myCar.seats = 10;
 
         System.out.println("Car Details:");
@@ -17,4 +17,5 @@ class Main {
         System.out.println("Year: " + myCar.year);
         System.out.println("Seats: " + myCar.seats);
     }
+
 }
